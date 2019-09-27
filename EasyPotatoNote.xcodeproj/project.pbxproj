@@ -1,0 +1,660 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7784FA3E2338EE4E00558D9C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784FA3D2338EE4E00558D9C /* AppDelegate.m */; };
+		7784FA442338EE4E00558D9C /* EPNHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784FA432338EE4E00558D9C /* EPNHomeViewController.m */; };
+		7784FA492338EE5100558D9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7784FA482338EE5100558D9C /* Assets.xcassets */; };
+		7784FA4C2338EE5100558D9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7784FA4A2338EE5100558D9C /* LaunchScreen.storyboard */; };
+		7784FA4F2338EE5100558D9C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784FA4E2338EE5100558D9C /* main.m */; };
+		7784FA592338EE5100558D9C /* EasyPotatoNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784FA582338EE5100558D9C /* EasyPotatoNoteTests.m */; };
+		7784FA642338EE5100558D9C /* EasyPotatoNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784FA632338EE5100558D9C /* EasyPotatoNoteUITests.m */; };
+		7784FA732339000500558D9C /* EPNNoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784FA722339000500558D9C /* EPNNoteTableViewCell.m */; };
+		7784FA76233901E800558D9C /* EPNNoteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784FA75233901E800558D9C /* EPNNoteModel.m */; };
+		7784FA7923390AB400558D9C /* UILabel+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 7784FA7823390AB400558D9C /* UILabel+Size.m */; };
+		A841ADFF5BB9222C9488FF05 /* libPods-EasyPotatoNote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C7445F2FE4DFB66A848918C /* libPods-EasyPotatoNote.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7784FA552338EE5100558D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7784FA312338EE4E00558D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7784FA382338EE4E00558D9C;
+			remoteInfo = EasyPotatoNote;
+		};
+		7784FA602338EE5100558D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7784FA312338EE4E00558D9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7784FA382338EE4E00558D9C;
+			remoteInfo = EasyPotatoNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C411B9851A45CECD11A3D4A /* Pods-EasyPotatoNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyPotatoNote.debug.xcconfig"; path = "Target Support Files/Pods-EasyPotatoNote/Pods-EasyPotatoNote.debug.xcconfig"; sourceTree = "<group>"; };
+		7784FA392338EE4E00558D9C /* EasyPotatoNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyPotatoNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7784FA3C2338EE4E00558D9C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7784FA3D2338EE4E00558D9C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7784FA422338EE4E00558D9C /* EPNHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPNHomeViewController.h; sourceTree = "<group>"; };
+		7784FA432338EE4E00558D9C /* EPNHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPNHomeViewController.m; sourceTree = "<group>"; };
+		7784FA482338EE5100558D9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7784FA4B2338EE5100558D9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7784FA4D2338EE5100558D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7784FA4E2338EE5100558D9C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7784FA542338EE5100558D9C /* EasyPotatoNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPotatoNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7784FA582338EE5100558D9C /* EasyPotatoNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPotatoNoteTests.m; sourceTree = "<group>"; };
+		7784FA5A2338EE5100558D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7784FA5F2338EE5100558D9C /* EasyPotatoNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyPotatoNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7784FA632338EE5100558D9C /* EasyPotatoNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyPotatoNoteUITests.m; sourceTree = "<group>"; };
+		7784FA652338EE5100558D9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7784FA712339000500558D9C /* EPNNoteTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPNNoteTableViewCell.h; sourceTree = "<group>"; };
+		7784FA722339000500558D9C /* EPNNoteTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPNNoteTableViewCell.m; sourceTree = "<group>"; };
+		7784FA74233901E800558D9C /* EPNNoteModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EPNNoteModel.h; sourceTree = "<group>"; };
+		7784FA75233901E800558D9C /* EPNNoteModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EPNNoteModel.m; sourceTree = "<group>"; };
+		7784FA7723390AB400558D9C /* UILabel+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Size.h"; sourceTree = "<group>"; };
+		7784FA7823390AB400558D9C /* UILabel+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Size.m"; sourceTree = "<group>"; };
+		9C7445F2FE4DFB66A848918C /* libPods-EasyPotatoNote.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyPotatoNote.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEBE63D413CE0321BE77182B /* Pods-EasyPotatoNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyPotatoNote.release.xcconfig"; path = "Target Support Files/Pods-EasyPotatoNote/Pods-EasyPotatoNote.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7784FA362338EE4E00558D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A841ADFF5BB9222C9488FF05 /* libPods-EasyPotatoNote.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7784FA512338EE5100558D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7784FA5C2338EE5100558D9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047900BAB5591C63347EF31A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C411B9851A45CECD11A3D4A /* Pods-EasyPotatoNote.debug.xcconfig */,
+				AEBE63D413CE0321BE77182B /* Pods-EasyPotatoNote.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		05193DB0F4C2B121D6E1E175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C7445F2FE4DFB66A848918C /* libPods-EasyPotatoNote.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7784FA302338EE4E00558D9C = {
+			isa = PBXGroup;
+			children = (
+				7784FA3B2338EE4E00558D9C /* EasyPotatoNote */,
+				7784FA572338EE5100558D9C /* EasyPotatoNoteTests */,
+				7784FA622338EE5100558D9C /* EasyPotatoNoteUITests */,
+				7784FA3A2338EE4E00558D9C /* Products */,
+				047900BAB5591C63347EF31A /* Pods */,
+				05193DB0F4C2B121D6E1E175 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7784FA3A2338EE4E00558D9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7784FA392338EE4E00558D9C /* EasyPotatoNote.app */,
+				7784FA542338EE5100558D9C /* EasyPotatoNoteTests.xctest */,
+				7784FA5F2338EE5100558D9C /* EasyPotatoNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7784FA3B2338EE4E00558D9C /* EasyPotatoNote */ = {
+			isa = PBXGroup;
+			children = (
+				7784FA3C2338EE4E00558D9C /* AppDelegate.h */,
+				7784FA3D2338EE4E00558D9C /* AppDelegate.m */,
+				7784FA422338EE4E00558D9C /* EPNHomeViewController.h */,
+				7784FA432338EE4E00558D9C /* EPNHomeViewController.m */,
+				7784FA482338EE5100558D9C /* Assets.xcassets */,
+				7784FA4A2338EE5100558D9C /* LaunchScreen.storyboard */,
+				7784FA4D2338EE5100558D9C /* Info.plist */,
+				7784FA4E2338EE5100558D9C /* main.m */,
+				7784FA712339000500558D9C /* EPNNoteTableViewCell.h */,
+				7784FA722339000500558D9C /* EPNNoteTableViewCell.m */,
+				7784FA74233901E800558D9C /* EPNNoteModel.h */,
+				7784FA75233901E800558D9C /* EPNNoteModel.m */,
+				7784FA7723390AB400558D9C /* UILabel+Size.h */,
+				7784FA7823390AB400558D9C /* UILabel+Size.m */,
+			);
+			path = EasyPotatoNote;
+			sourceTree = "<group>";
+		};
+		7784FA572338EE5100558D9C /* EasyPotatoNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				7784FA582338EE5100558D9C /* EasyPotatoNoteTests.m */,
+				7784FA5A2338EE5100558D9C /* Info.plist */,
+			);
+			path = EasyPotatoNoteTests;
+			sourceTree = "<group>";
+		};
+		7784FA622338EE5100558D9C /* EasyPotatoNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7784FA632338EE5100558D9C /* EasyPotatoNoteUITests.m */,
+				7784FA652338EE5100558D9C /* Info.plist */,
+			);
+			path = EasyPotatoNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7784FA382338EE4E00558D9C /* EasyPotatoNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7784FA682338EE5100558D9C /* Build configuration list for PBXNativeTarget "EasyPotatoNote" */;
+			buildPhases = (
+				50CFCD4927AE85B74530740B /* [CP] Check Pods Manifest.lock */,
+				7784FA352338EE4E00558D9C /* Sources */,
+				7784FA362338EE4E00558D9C /* Frameworks */,
+				7784FA372338EE4E00558D9C /* Resources */,
+				7010C85F7AAB88AB44D20D2E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyPotatoNote;
+			productName = EasyPotatoNote;
+			productReference = 7784FA392338EE4E00558D9C /* EasyPotatoNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7784FA532338EE5100558D9C /* EasyPotatoNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7784FA6B2338EE5100558D9C /* Build configuration list for PBXNativeTarget "EasyPotatoNoteTests" */;
+			buildPhases = (
+				7784FA502338EE5100558D9C /* Sources */,
+				7784FA512338EE5100558D9C /* Frameworks */,
+				7784FA522338EE5100558D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7784FA562338EE5100558D9C /* PBXTargetDependency */,
+			);
+			name = EasyPotatoNoteTests;
+			productName = EasyPotatoNoteTests;
+			productReference = 7784FA542338EE5100558D9C /* EasyPotatoNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7784FA5E2338EE5100558D9C /* EasyPotatoNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7784FA6E2338EE5100558D9C /* Build configuration list for PBXNativeTarget "EasyPotatoNoteUITests" */;
+			buildPhases = (
+				7784FA5B2338EE5100558D9C /* Sources */,
+				7784FA5C2338EE5100558D9C /* Frameworks */,
+				7784FA5D2338EE5100558D9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7784FA612338EE5100558D9C /* PBXTargetDependency */,
+			);
+			name = EasyPotatoNoteUITests;
+			productName = EasyPotatoNoteUITests;
+			productReference = 7784FA5F2338EE5100558D9C /* EasyPotatoNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7784FA312338EE4E00558D9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Li,Xufeng";
+				TargetAttributes = {
+					7784FA382338EE4E00558D9C = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					7784FA532338EE5100558D9C = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 7784FA382338EE4E00558D9C;
+					};
+					7784FA5E2338EE5100558D9C = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 7784FA382338EE4E00558D9C;
+					};
+				};
+			};
+			buildConfigurationList = 7784FA342338EE4E00558D9C /* Build configuration list for PBXProject "EasyPotatoNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7784FA302338EE4E00558D9C;
+			productRefGroup = 7784FA3A2338EE4E00558D9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7784FA382338EE4E00558D9C /* EasyPotatoNote */,
+				7784FA532338EE5100558D9C /* EasyPotatoNoteTests */,
+				7784FA5E2338EE5100558D9C /* EasyPotatoNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7784FA372338EE4E00558D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7784FA4C2338EE5100558D9C /* LaunchScreen.storyboard in Resources */,
+				7784FA492338EE5100558D9C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7784FA522338EE5100558D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7784FA5D2338EE5100558D9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50CFCD4927AE85B74530740B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyPotatoNote-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7010C85F7AAB88AB44D20D2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyPotatoNote/Pods-EasyPotatoNote-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyPotatoNote/Pods-EasyPotatoNote-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyPotatoNote/Pods-EasyPotatoNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7784FA352338EE4E00558D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7784FA76233901E800558D9C /* EPNNoteModel.m in Sources */,
+				7784FA442338EE4E00558D9C /* EPNHomeViewController.m in Sources */,
+				7784FA732339000500558D9C /* EPNNoteTableViewCell.m in Sources */,
+				7784FA3E2338EE4E00558D9C /* AppDelegate.m in Sources */,
+				7784FA4F2338EE5100558D9C /* main.m in Sources */,
+				7784FA7923390AB400558D9C /* UILabel+Size.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7784FA502338EE5100558D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7784FA592338EE5100558D9C /* EasyPotatoNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7784FA5B2338EE5100558D9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7784FA642338EE5100558D9C /* EasyPotatoNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7784FA562338EE5100558D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7784FA382338EE4E00558D9C /* EasyPotatoNote */;
+			targetProxy = 7784FA552338EE5100558D9C /* PBXContainerItemProxy */;
+		};
+		7784FA612338EE5100558D9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7784FA382338EE4E00558D9C /* EasyPotatoNote */;
+			targetProxy = 7784FA602338EE5100558D9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7784FA4A2338EE5100558D9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7784FA4B2338EE5100558D9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7784FA662338EE5100558D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7784FA672338EE5100558D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7784FA692338EE5100558D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C411B9851A45CECD11A3D4A /* Pods-EasyPotatoNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDB3522PNF;
+				INFOPLIST_FILE = EasyPotatoNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.epnlxf.EasyPotatoNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7784FA6A2338EE5100558D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEBE63D413CE0321BE77182B /* Pods-EasyPotatoNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDB3522PNF;
+				INFOPLIST_FILE = EasyPotatoNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.epnlxf.EasyPotatoNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7784FA6C2338EE5100558D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDB3522PNF;
+				INFOPLIST_FILE = EasyPotatoNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.epnlxf.EasyPotatoNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPotatoNote.app/EasyPotatoNote";
+			};
+			name = Debug;
+		};
+		7784FA6D2338EE5100558D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDB3522PNF;
+				INFOPLIST_FILE = EasyPotatoNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.epnlxf.EasyPotatoNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyPotatoNote.app/EasyPotatoNote";
+			};
+			name = Release;
+		};
+		7784FA6F2338EE5100558D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDB3522PNF;
+				INFOPLIST_FILE = EasyPotatoNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.epnlxf.EasyPotatoNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyPotatoNote;
+			};
+			name = Debug;
+		};
+		7784FA702338EE5100558D9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDB3522PNF;
+				INFOPLIST_FILE = EasyPotatoNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.epnlxf.EasyPotatoNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyPotatoNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7784FA342338EE4E00558D9C /* Build configuration list for PBXProject "EasyPotatoNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7784FA662338EE5100558D9C /* Debug */,
+				7784FA672338EE5100558D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7784FA682338EE5100558D9C /* Build configuration list for PBXNativeTarget "EasyPotatoNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7784FA692338EE5100558D9C /* Debug */,
+				7784FA6A2338EE5100558D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7784FA6B2338EE5100558D9C /* Build configuration list for PBXNativeTarget "EasyPotatoNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7784FA6C2338EE5100558D9C /* Debug */,
+				7784FA6D2338EE5100558D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7784FA6E2338EE5100558D9C /* Build configuration list for PBXNativeTarget "EasyPotatoNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7784FA6F2338EE5100558D9C /* Debug */,
+				7784FA702338EE5100558D9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7784FA312338EE4E00558D9C /* Project object */;
+}
